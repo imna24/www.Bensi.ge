@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3ad280c339.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+
+    <link rel="stylesheet" href="home-style.css" />
+
+    <title>Document</title>
+  </head>
+  <button id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  <body>
+    <!-- =================================================== HEADER BOX ============================================================== -->
+    <header id="header">
+      <div class="headbox">
+        <div class="curved">
+          <div class="logo">
+            <a href="home.html"><img src="../images/logo2.png" alt="" /></a>
+          </div>
+          <div class="navbar-links">
+            <ul class="menu">
+              <li><a href="#home">მთავარი</a></li>
+              <li><a href="#services1">სერვისები</a></li>
+              <li><a href="#gallery">გალერეა</a></li>
+              <li><a href="#about">ჩვენს შესახებ</a></li>
+              <li><a href="#contact1">კონტაქტი</a></li>
+            </ul>
+            <div class="lang-dropdown">
+              <div class="selected"><span id="currentLang">GE</span></div>
+              <div class="dropdown">
+                <div onclick="setLanguage('ka')">GE</div>
+                <div onclick="setLanguage('en')">EN</div>
+                <div onclick="setLanguage('ru')">RU</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <?xml version="1.0" standalone="no"?> -->
+      </div>
+      <svg
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="wave"
+        style="transform: rotate(180deg); transition: 0.3s"
+        viewBox="0 0 1440 89"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <filter
+            id="waveFloatingShadow"
+            x="-20%"
+            y="-80%"
+            width="140%"
+            height="260%"
+          >
+            <feDropShadow
+              dx="0"
+              dy="-4"
+              stdDeviation="6"
+              flood-opacity="0.20"
+              flood-color="#1c2126"
+            />
+            <feDropShadow
+              dx="0"
+              dy="-10"
+              stdDeviation="14"
+              flood-opacity="0.10"
+            />
+          </filter>
+        </defs>
+        <path
+          filter="url(#waveFloatingShadow)"
+          fill="rgb(28, 33, 38)"
+          d="M0,90L80,80C160,70,320,50,480,48.3C640,47,800,63,960,66.7C1120,70,1280,60,1440,61.7C1600,63,1760,77,1920,80C2080,83,2240,77,2400,75C2560,73,2720,77,2880,65C3040,53,3200,27,3360,25C3520,23,3680,47,3840,50C4000,53,4160,37,4320,31.7C4480,27,4640,33,4800,30C4960,27,5120,13,5280,16.7C5440,20,5600,40,5760,40C5920,40,6080,20,6240,11.7C6400,3,6560,7,6720,18.3C6880,30,7040,50,7200,56.7C7360,63,7520,57,7680,50C7840,43,8000,37,8160,43.3C8320,50,8480,70,8640,76.7C8800,83,8960,77,9120,76.7C9280,77,9440,83,9600,81.7C9760,80,9920,70,10080,56.7C10240,43,10400,27,10560,25C10720,23,10880,37,11040,50C11200,63,11360,77,11440,83.3L11520,90L11520,100L11440,100C11360,100,11200,100,11040,100C10880,100,10720,100,10560,100C10400,100,10240,100,10080,100C9920,100,9760,100,9600,100C9440,100,9280,100,9120,100C8960,100,8800,100,8640,100C8480,100,8320,100,8160,100C8000,100,7840,100,7680,100C7520,100,7360,100,7200,100C7040,100,6880,100,6720,100C6560,100,6400,100,6240,100C6080,100,5920,100,5760,100C5600,100,5440,100,5280,100C5120,100,4960,100,4800,100C4640,100,4480,100,4320,100C4160,100,4000,100,3840,100C3680,100,3520,100,3360,100C3200,100,3040,100,2880,100C2720,100,2560,100,2400,100C2240,100,2080,100,1920,100C1760,100,1600,100,1440,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z"
+        >
+          <animateTransform
+            attributeName="transform"
+            type="translate"
+            values="0 0; 0 -2; 0 0"
+            dur="7s"
+            repeatCount="indefinite"
+          />
+        </path>
+      </svg>
+    </header>
+    <!-- ============================================SHUA (Full Screen)===================================================================== -->
+    <div class="shua" id="home">
+      <div class="fullscreen">
+        <div class="offer1"></div>
+        <div class="offer2"></div>
+        <div class="offer3"></div>
+        <div class="offer4"></div>
+
+        <div class="bookit">
+          <div class="apply-now">
+            <a
+              >დაჯავშნე კონსულტაცია,<br />მიიღე სრული ინფორმაცია<i
+                class="fa-solid fa-arrow-right"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================CONTANT===================================================================== -->
+    <div class="content_cont">
+      <section class="services" id="services1">
+        <div class="octagon-grid">
+          <div class="Octagon" data-service="architecture">
+            <i id="icons" class="fa-solid fa-compass-drafting"></i>
+            <h2>არქიტექტურა და ინტერიერის დიზაინი<br /></h2>
+          </div>
+          <div class="Octagon" data-service="construction">
+            <i id="icons" class="fa-solid fa-house-chimney"></i>
+            <h2>მშენებლობა და<br />რემონტი</h2>
+          </div>
+          <div class="Octagon" data-service="furniture">
+            <i id="icons" class="fa-solid fa-couch"></i>
+              <!-- <img src="../images/kitchicon.png" alt="Web Design" class="octagon-icon"> -->
+
+            <h2>ავეჯის კონსტრუირება<br />და დამზადება</h2>
+          </div>
+          <div class="Octagon" data-service="courses">
+            <i id="icons" class="fa-solid fa-graduation-cap"></i>
+            <h2>სასწავლო კურსები<br /></h2>
+          </div>
+        </div>
+        <div class="Octagon_text">dfasfasfa</div>
+      </section>
+      <div class="portfolio" id="gallery">
+        <a>შესრულებული პროექტები <i class="fa-solid fa-square-check"></i></a>
+        <div class="projects"></div>
+        <button class="button-srulad">ნახე სრულად</button>
+      </div>
+      <section class="about-us" id="about">
+        <div class="about-content">
+          <span class="section-tag">ჩვენს შესახებ</span>
+
+          <h2>ვინ ვართ ჩვენ?</h2>
+
+          <p>
+            ჩვენ ვქმნით თანამედროვე, ფუნქციურ და ესთეტიკურ სივრცეებს, რომლებიც
+            სრულად პასუხობს მომხმარებლის მოთხოვნებს.
+          </p>
+
+          <p>
+            ჩვენი გუნდი აერთიანებს არქიტექტორებს, დიზაინერებსა და მშენებლობის
+            პროფესიონალებს, რაც საშუალებას გვაძლევს პროექტი იდეიდან
+            რეალიზაციამდე სრულად ვმართოთ.
+          </p>
+
+          <a href="#" class="about-btn">შეიტყვეთ მეტი</a>
+        </div>
+
+        <div class="about-stats">
+          <div class="timeline-item">
+            <div class="line"></div>
+
+            <div class="stat-circle">
+              <i class="fa-solid fa-calendar-check"></i>
+              <h3 class="counter" data-target="10">0</h3>
+              <span>წელი გამოცდილება</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="line"></div>
+
+            <div class="stat-circle">
+              <i class="fa-solid fa-building"></i>
+              <h3 class="counter" data-target="150">0</h3>
+              <span>პროექტი</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="line"></div>
+
+            <div class="stat-circle">
+              <i class="fa-solid fa-handshake"></i>
+              <h3 class="counter" data-target="30">0</h3>
+              <span>პარტნიორი</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="line"></div>
+
+            <div class="stat-circle">
+              <i class="fa-solid fa-users"></i>
+              <h3 class="counter" data-target="98">0</h3>
+              <span>კმაყოფილება</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="partners-wrapper">
+        <button class="partner-btn prev">&#10094;</button>
+        <div class="partners" id="partners">
+          <img src="../images/innovageorgia.png" alt="" />
+          <img src="../images/blum.png" alt="" />
+          <img src="../images/ltb.png" alt="" />
+          <img src="../images/geodecor.png" alt="" />
+          <img src="../images/kasta.png" alt="" />
+          <img src="../images/hafele.webp" alt="" />
+          <img src="../images/innovageorgia.png" alt="" />
+          <img src="../images/blum.png" alt="" />
+          <img src="../images/ltb.png" alt="" />
+          <img src="../images/geodecor.png" alt="" />
+          <img src="../images/kasta.png" alt="" />
+          <img src="../images/hafele.webp" alt="" />
+        </div>
+        <button class="partner-btn next">&#10095;</button>
+      </div>
+      <!-- <div class="contact" id="contact1"> -->
+      <section class="contact-section" id="contact1">
+        <div class="contact-container">
+          <div class="contact-form">
+            <h2>დაგვიკავშირდით</h2>
+            <form>
+              <input type="text" placeholder="თქვენი სახელი" required />
+              <input type="email" placeholder="Email" required />
+              <input type="tel" placeholder="ტელეფონი" />
+              <textarea placeholder="შეტყობინება" rows="6"></textarea>
+              <button type="submit">გაგზავნა</button>
+            </form>
+          </div>
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190572.83947808086!2d44.69876842794186!3d41.73238059911605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d9ac4a8477%3A0x7c1e3f6f7d8f5b7!2sTbilisi!5e0!3m2!1sen!2sge!4v1716020000000!5m2!1sen!2sge"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+      <!-- </div> -->
+    </div>
+    <!-- ======================================FOOTER=========================================================================== -->
+    <footer>
+      <div class="Footer_text">
+        <span>Join us on Facebook</span>
+        <span>Email us: Loremipsum@gmail.com</span>
+        <span>Call us: (+995) 577 11 55 77</span>
+      </div>
+      <img src="../images/logo2.png" alt="" />
+      <div class="Footer_text1">
+        <span>Loremipsum.ge © 2025</span>
+        <span>All rights reserved.</span>
+        <span>Created By: Giorgi Imnaishvili</span>
+      </div>
+    </footer>
+    <script src="home-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+[
+  {
+    "title": "Modern House",
+    "images": [
+      "../images/project4.jpg",
+      "../images/project4_1.jpg",
+      "../images/project4_2.jpg"
+    ],
+    "description": "სახლის მშენებლობა"
+  },
+
+  {
+    "title": "Luxury Villa",
+    "images": [
+      "../images/project2.jpg",
+      "../images/project2_1.jpg",
+      "../images/project2_2.jpg"
+    ],
+    "description": "ვილის მშენებლობა"
+  },
+
+  {
+    "title": "Apartment Building",
+    "images": [
+      "../images/project3.jpg",
+      "../images/project3_1.jpg",
+      "../images/project3_2.jpg"
+    ],
+    "description": "კორპუსის მშენებლობა"
+  },
+
+  {
+    "title": "Office Center",
+    "images": [
+    "../images/project1.jpg",
+      "../images/project1_1.jpg",
+      "../images/project1_2.jpg"
+    ],
+    "description": "ოფის ცენტრის მშენებლობა"
+  },
+
+  {
+    "title": "Country House",
+    "images": [
+      "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "აგარაკის მშენებლობა"
+  },
+
+  {
+    "title": "Hotel Complex",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "სასტუმროს მშენებლობა"
+  },
+
+  {
+    "title": "Swimming Pool",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "აუზის მშენებლობა"
+  },
+
+  {
+    "title": "Restaurant Design",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "რესტორნის პროექტი"
+  },
+
+  {
+    "title": "Modern Interior",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "ინტერიერის დიზაინი"
+  },
+
+  {
+    "title": "Modern Interior",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "ინტერიერის დიზაინი"
+  },
+
+  {
+    "title": "Modern Interior",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "ინტერიერის დიზაინი"
+  },
+
+  {
+    "title": "Modern Interior",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "ინტერიერის დიზაინი"
+  },
+
+  {
+    "title": "Modern Interior",
+    "images": [
+     "../images/housedone.jpg",
+      "../images/housedone1.jpg",
+      "../images/housedone.jpg"
+    ],
+    "description": "ინტერიერის დიზაინი"
+  }
+]
+
+
