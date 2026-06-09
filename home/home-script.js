@@ -268,43 +268,54 @@ function renderProjects() {
   allProjects
     .slice(0, visibleCount)
     .forEach((project, projectIndex) => {
-      const carouselId =
-        `carousel-${projectIndex}`;
 
-      const box =
-        document.createElement("div");
+      const carouselId = `carousel-${projectIndex}`;
+
+      const box = document.createElement("div");
 
       box.classList.add("project-box");
+
+      box.style.cursor = "pointer";
+
+      // პროექტის გვერდზე გადასვლა
+      box.addEventListener("click", (e) => {
+        if (
+          e.target.closest(".carousel-control-prev") ||
+          e.target.closest(".carousel-control-next") ||
+          e.target.closest(".carousel-indicators")
+        ) {
+          return;
+        }
+
+        window.location.href =
+          `../project.html?id=${project.id}`;
+      });
 
       let slidesHTML = "";
       let indicatorsHTML = "";
 
-      project.images.forEach(
-        (image, index) => {
-          slidesHTML += `
-            <div class="carousel-item ${
-              index === 0 ? "active" : ""
-            }">
-              <img
-                src="${image}"
-                class="d-block w-100"
-                alt="${project.title}"
-              >
-            </div>
-          `;
+      project.images.forEach((image, index) => {
+        slidesHTML += `
+          <div class="carousel-item ${
+            index === 0 ? "active" : ""
+          }">
+            <img
+              src="${image}"
+              class="d-block w-100"
+              alt="${project.title}"
+            >
+          </div>
+        `;
 
-          indicatorsHTML += `
-            <button
-              type="button"
-              data-bs-target="#${carouselId}"
-              data-bs-slide-to="${index}"
-              class="${
-                index === 0 ? "active" : ""
-              }"
-            ></button>
-          `;
-        }
-      );
+        indicatorsHTML += `
+          <button
+            type="button"
+            data-bs-target="#${carouselId}"
+            data-bs-slide-to="${index}"
+            class="${index === 0 ? "active" : ""}"
+          ></button>
+        `;
+      });
 
       box.innerHTML = `
         <div
@@ -347,14 +358,11 @@ function renderProjects() {
     });
 
   if (visibleCount >= allProjects.length) {
-    loadMoreBtn.textContent =
-      "ნაკლების ნახვა";
+    loadMoreBtn.textContent = "ნაკლების ნახვა";
   } else {
-    loadMoreBtn.textContent =
-      "ნახე სრულად";
+    loadMoreBtn.textContent = "ნახე სრულად";
   }
 }
-
 loadMoreBtn.addEventListener(
   "click",
   () => {
